@@ -1,4 +1,4 @@
-package com.codekata.fun.binarysearch;
+package com.codekata.fun.listsearch;
 
 import com.codekata.fun.util.ArrayUtils;
 
@@ -6,7 +6,7 @@ import com.codekata.fun.util.ArrayUtils;
  * Author: andrei
  * Date: 4/7/13
  */
-public class RecursiveBinarySearchProvider implements IBinarySearchProvider {
+public class RecursiveSortedListSearchProvider implements ISortedListSearchProvider {
 
     private static final int NOT_FOUND_INDEX = -1;
 

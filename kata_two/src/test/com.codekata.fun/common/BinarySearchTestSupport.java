@@ -1,25 +1,22 @@
-package com.codekata.fun.binarysearch;
+package com.codekata.fun.common;
 
+import com.codekata.fun.binarysearch.IBinarySearchProvider;
+import com.codekata.fun.binarysearch.IterativeBinarySearchProvider;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 /**
  * Author: andrei
  * Date: 4/7/13
  */
 @RunWith(JUnit4.class)
-public class TestIterativeBinarySearch {
+public class BinarySearchTestSupport {
 
-    private IBinarySearchProvider binarySearchProvider;
-
-    @Before
-    public void setUp() {
-        binarySearchProvider = new IterativeBinarySearchProvider();
-    }
+    protected IBinarySearchProvider binarySearchProvider;
 
     @Test
     public void testBinarySearch() {
@@ -44,5 +41,4 @@ public class TestIterativeBinarySearch {
         assertEquals(-1, binarySearchProvider.chop(6, new int[]{1, 3, 5, 7}));
         assertEquals(-1, binarySearchProvider.chop(8, new int[]{1, 3, 5, 7}));
     }
-
 }

@@ -1,5 +1,7 @@
 package com.codekata.fun.binarysearch;
 
+import com.codekata.fun.util.ArrayUtils;
+
 /**
  * Author: andrei
  * Date: 4/7/13
@@ -14,11 +16,11 @@ public class IterativeBinarySearchProvider implements IBinarySearchProvider {
             return  NOT_FOUND_INDEX;
         } else {
             int startIndex = 0;
-            int endIndex = sortedArray.length -1 ;
+            int endIndex = ArrayUtils.getEndIndex(sortedArray);
 
             while (startIndex <= endIndex) {
 
-                int middleIndex = (endIndex + startIndex) / 2;
+                int middleIndex = ArrayUtils.getMiddleIndex(startIndex, endIndex);
 
                 int middleValue = sortedArray[middleIndex];
 

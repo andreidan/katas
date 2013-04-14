@@ -8,8 +8,6 @@ import com.codekata.fun.util.ArrayUtils;
  */
 public class RecursiveSortedListSearchProvider implements ISortedListSearchProvider {
 
-    private static final int NOT_FOUND_INDEX = -1;
-
     public int chop(int value, int[] sortedArray) {
 
         if (sortedArray == null || sortedArray.length == -1) {

@@ -15,7 +15,6 @@ public class ParallelSortedListSearchProvider implements ISortedListSearchProvid
     private final ExecutorService executorService;
     private CompletionService<Integer> completionService;
     private final int cpuCores;
-    private static final int NOT_FOUND_INDEX = -1;
 
     public ParallelSortedListSearchProvider() {
         cpuCores = Runtime.getRuntime().availableProcessors();

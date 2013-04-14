@@ -29,9 +29,11 @@ public class RecursiveSortedListSearchProvider implements ISortedListSearchProvi
             int middleValue = sortedArray[middleIndex];
 
             if (value < middleValue) {
+                // the endIndex becomes the index just before the middle index in the array -> we are searching in the bottom half
                 endIndex = middleIndex - 1;
                 return chop(value, sortedArray, startIndex, endIndex);
             } else if (value > middleValue) {
+                // the startIndex becomes the index just after the middle index in the array -> we are searching in the upper half
                 startIndex = middleIndex + 1;
                 return chop(value, sortedArray, startIndex, endIndex);
             } else {

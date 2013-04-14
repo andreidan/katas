@@ -6,10 +6,6 @@ package com.codekata.fun.util;
  */
 public class ArrayUtils {
 
-    public static int getEndIndex(int[] array) {
-        return array.length - 1;
-    }
-
     public static int getMiddleIndex(int startIndex, int endIndex) {
         return (startIndex + endIndex) / 2;
     }

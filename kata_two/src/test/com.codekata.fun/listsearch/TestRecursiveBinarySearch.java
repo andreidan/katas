@@ -10,7 +10,7 @@ import org.junit.runners.JUnit4;
  * Date: 4/7/13
  */
 @RunWith(JUnit4.class)
-public class RecursiveBinarySearchTest extends SortedListSearchTestSupport {
+public class TestRecursiveBinarySearch extends SortedListSearchTestSupport {
 
     @Before
     public void setUp(){

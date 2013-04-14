@@ -1,6 +1,6 @@
 package com.codekata.fun.listsearch;
 
-import com.codekata.fun.common.SortedListSearchTestSupport;
+import com.codekata.fun.common.ArraySearchTestSupport;
 import org.junit.Before;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
@@ -10,10 +10,10 @@ import org.junit.runners.JUnit4;
  * Date: 4/7/13
  */
 @RunWith(JUnit4.class)
-public class TestParallelSortedListSearch extends SortedListSearchTestSupport {
+public class TestParallelArraySearch extends ArraySearchTestSupport {
 
     @Before
     public void setUp() {
-        searchProvider = new ParallelSortedListSearchProvider();
+        searchProvider = new ParallelArraySearchProvider();
     }
 }

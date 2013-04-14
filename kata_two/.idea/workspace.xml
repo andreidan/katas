@@ -1,19 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4981dd4-6472-4960-9fd2-873c67399aa3" name="Default" comment="" />
+    <list default="true" id="f4981dd4-6472-4960-9fd2-873c67399aa3" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/com/codekata/fun/listsearch/ISortedListSearchProvider.java" afterPath="$PROJECT_DIR$/src/java/com/codekata/fun/listsearch/IArraySearchProvider.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/com/codekata/fun/listsearch/IterativeSortedListSearchProvider.java" afterPath="$PROJECT_DIR$/src/java/com/codekata/fun/listsearch/IterativeArraySearchProvider.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/com/codekata/fun/listsearch/ParallelSortedListSearchProvider.java" afterPath="$PROJECT_DIR$/src/java/com/codekata/fun/listsearch/ParallelArraySearchProvider.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/java/com/codekata/fun/listsearch/RecursiveSortedListSearchProvider.java" afterPath="$PROJECT_DIR$/src/java/com/codekata/fun/listsearch/RecursiveArraySearchProvider.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/com.codekata.fun/common/SortedListSearchTestSupport.java" afterPath="$PROJECT_DIR$/src/test/com.codekata.fun/common/ArraySearchTestSupport.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/com.codekata.fun/listsearch/TestParallelSortedListSearch.java" afterPath="$PROJECT_DIR$/src/test/com.codekata.fun/listsearch/TestParallelArraySearch.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/com/codekata/fun/listsearch/BinarySearchProvider.java" afterPath="$PROJECT_DIR$/src/java/com/codekata/fun/listsearch/BinarySearchProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/com.codekata.fun/listsearch/TestBinarySearchProvider.java" afterPath="$PROJECT_DIR$/src/test/com.codekata.fun/listsearch/TestBinarySearchProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/com.codekata.fun/listsearch/TestIterativeBinarySearch.java" afterPath="$PROJECT_DIR$/src/test/com.codekata.fun/listsearch/TestIterativeBinarySearch.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/com.codekata.fun/listsearch/TestRecursiveBinarySearch.java" afterPath="$PROJECT_DIR$/src/test/com.codekata.fun/listsearch/TestRecursiveBinarySearch.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="kata_two.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="f4981dd4-6472-4960-9fd2-873c67399aa3" time="1365339614393" ignored="false" />
+    <file path="/Dummy.txt" changelist="f4981dd4-6472-4960-9fd2-873c67399aa3" time="1365956739883" ignored="false" />
     <file path="/BinarySearch.java" changelist="f4981dd4-6472-4960-9fd2-873c67399aa3" time="1365342676892" ignored="false" />
     <file path="/TestBinarySearchIterative.java" changelist="f4981dd4-6472-4960-9fd2-873c67399aa3" time="1365341014947" ignored="false" />
-    <file path="/fragment.java" changelist="f4981dd4-6472-4960-9fd2-873c67399aa3" time="1365344330373" ignored="false" />
-    <file path="/BinarySearchIterative.java" changelist="f4981dd4-6472-4960-9fd2-873c67399aa3" time="1365344123594" ignored="false" />
-    <file path="/RecursiveBinarySearch.java" changelist="f4981dd4-6472-4960-9fd2-873c67399aa3" time="1365344129874" ignored="false" />
+    <file path="/fragment.java" changelist="f4981dd4-6472-4960-9fd2-873c67399aa3" time="1365967507983" ignored="false" />
+    <file path="/BinarySearchIterative.java" changelist="f4981dd4-6472-4960-9fd2-873c67399aa3" time="1365345722817" ignored="false" />
+    <file path="/RecursiveBinarySearch.java" changelist="f4981dd4-6472-4960-9fd2-873c67399aa3" time="1365346027602" ignored="false" />
     <file path="/IBinarySearch.java" changelist="f4981dd4-6472-4960-9fd2-873c67399aa3" time="1365344101948" ignored="false" />
     <file path="/IterativeBinarySearch.java" changelist="f4981dd4-6472-4960-9fd2-873c67399aa3" time="1365344124298" ignored="false" />
     <file path="/BinarySearchTestSupport.java" changelist="f4981dd4-6472-4960-9fd2-873c67399aa3" time="1365344184537" ignored="false" />
-    <file path="/TestIterativeBinarySearch.java" changelist="f4981dd4-6472-4960-9fd2-873c67399aa3" time="1365344263831" ignored="false" />
+    <file path="/TestIterativeBinarySearch.java" changelist="f4981dd4-6472-4960-9fd2-873c67399aa3" time="1365346316871" ignored="false" />
+    <file path="/ArrayUtils.java" changelist="f4981dd4-6472-4960-9fd2-873c67399aa3" time="1365345705718" ignored="false" />
+    <file path="/RecursiveBinarySearchProvider.java" changelist="f4981dd4-6472-4960-9fd2-873c67399aa3" time="1365345825345" ignored="false" />
+    <file path="/TestBinarySearchSupport.java" changelist="f4981dd4-6472-4960-9fd2-873c67399aa3" time="1365347214701" ignored="false" />
+    <file path="/TestRecursiveBinarySearch.java" changelist="f4981dd4-6472-4960-9fd2-873c67399aa3" time="1365346436519" ignored="false" />
+    <file path="/ParallelSortedListSearch.java" changelist="f4981dd4-6472-4960-9fd2-873c67399aa3" time="1365966254786" ignored="false" />
+    <file path="/SearchFutureTask.java" changelist="f4981dd4-6472-4960-9fd2-873c67399aa3" time="1365364887846" ignored="false" />
+    <file path="/ParallelSortedListSearchTest.java" changelist="f4981dd4-6472-4960-9fd2-873c67399aa3" time="1365349020488" ignored="false" />
+    <file path="/a.java" changelist="f4981dd4-6472-4960-9fd2-873c67399aa3" time="1365956510809" ignored="false" />
+    <file path="/sample.java" changelist="f4981dd4-6472-4960-9fd2-873c67399aa3" time="1365349690290" ignored="false" />
+    <file path="/SortedListSearchTestSupport.java" changelist="f4981dd4-6472-4960-9fd2-873c67399aa3" time="1365966602682" ignored="false" />
+    <file path="/IterativeSortedListSearchProvider.java" changelist="f4981dd4-6472-4960-9fd2-873c67399aa3" time="1365966483990" ignored="false" />
+    <file path="/SearchCallable.java" changelist="f4981dd4-6472-4960-9fd2-873c67399aa3" time="1365950899871" ignored="false" />
+    <file path="/ArraySliceSearchTask.java" changelist="f4981dd4-6472-4960-9fd2-873c67399aa3" time="1365965984111" ignored="false" />
+    <file path="/RecursiveSortedListSearchProvider.java" changelist="f4981dd4-6472-4960-9fd2-873c67399aa3" time="1365966448998" ignored="false" />
+    <file path="/BinarySearchProvider.java" changelist="f4981dd4-6472-4960-9fd2-873c67399aa3" time="1365967203980" ignored="false" />
+    <file path="/TestBinarySearchProvider.java" changelist="f4981dd4-6472-4960-9fd2-873c67399aa3" time="1365966986718" ignored="false" />
+    <file path="/ISortedListSearchProvider.java" changelist="f4981dd4-6472-4960-9fd2-873c67399aa3" time="1365967468148" ignored="false" />
+    <file path="/IterativeArraySliceSearchProvider.java" changelist="f4981dd4-6472-4960-9fd2-873c67399aa3" time="1365967499453" ignored="false" />
+    <file path="/IterativeArraySliceSearchProviderTest.java" changelist="f4981dd4-6472-4960-9fd2-873c67399aa3" time="1365967559030" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +65,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -41,6 +72,7 @@
         <option name="ENABLED" value="false" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
         <option name="SUSPEND_POLICY" value="SuspendAll" />
         <option name="SUSPEND" value="true" />
         <option name="COUNT_FILTER_ENABLED" value="false" />
@@ -57,6 +89,7 @@
         <option name="ENABLED" value="false" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
         <option name="SUSPEND_POLICY" value="SuspendAll" />
         <option name="SUSPEND" value="true" />
         <option name="COUNT_FILTER_ENABLED" value="false" />
@@ -68,6 +101,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -77,37 +111,84 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="IterativeBinarySearchProvider.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/com/codekata/fun/binarysearch/IterativeBinarySearchProvider.java">
+      <file leaf-file-name="ArraySearchTestSupport.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/com.codekata.fun/common/ArraySearchTestSupport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="23" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0">
+            <state line="22" column="0" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RecursiveBinarySearchProvider.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/java/com/codekata/fun/binarysearch/RecursiveBinarySearchProvider.java">
+      <file leaf-file-name="BinarySearchProvider.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/com/codekata/fun/listsearch/BinarySearchProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="34" selection-start="273" selection-end="296" vertical-scroll-proportion="0.42525774">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestRecursiveBinarySearch.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/com.codekata.fun/binarysearch/TestRecursiveBinarySearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="38" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0">
+            <state line="16" column="82" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="TestIterativeBinarySearch.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/com.codekata.fun/binarysearch/TestIterativeBinarySearch.java">
+        <entry file="file://$PROJECT_DIR$/src/test/com.codekata.fun/listsearch/TestIterativeBinarySearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="0" selection-start="1333" selection-end="1333" vertical-scroll-proportion="0.0">
+            <state line="11" column="0" selection-start="227" selection-end="249" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IterativeArraySearchProvider.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/com/codekata/fun/listsearch/IterativeArraySearchProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="26" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParallelArraySearchProvider.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/com/codekata/fun/listsearch/ParallelArraySearchProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="0" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#1476#1493#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IArraySearchProvider.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/com/codekata/fun/listsearch/IArraySearchProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="23" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RecursiveArraySearchProvider.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/com/codekata/fun/listsearch/RecursiveArraySearchProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="53" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IterativeArraySliceSearchProvider.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/com/codekata/fun/listsearch/IterativeArraySliceSearchProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="23" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestIterativeArraySliceSearchProvider.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/com.codekata.fun/listsearch/TestIterativeArraySliceSearchProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="36" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,10 +196,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IBinarySearchProvider.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/com/codekata/fun/binarysearch/IBinarySearchProvider.java">
+      <file leaf-file-name="TestParallelArraySearch.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/com.codekata.fun/listsearch/TestParallelArraySearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
+            <state line="12" column="56" selection-start="306" selection-end="306" vertical-scroll-proportion="0.3857143">
               <folding />
             </state>
           </provider>
@@ -142,19 +223,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/java/com/codekata/fun/BinarySearch.java" />
-        <option value="$PROJECT_DIR$/src/test/com.codekata.fun/BinarySearchIterativeTest.java" />
-        <option value="$PROJECT_DIR$/src/test/com.codekata.fun/TestBinarySearchIterative.java" />
-        <option value="$PROJECT_DIR$/src/java/com/codekata/fun/BinarySearchIterative.java" />
-        <option value="$PROJECT_DIR$/src/java/com/codekata/fun/IterativeBinarySearch.java" />
-        <option value="$PROJECT_DIR$/src/java/com/codekata/fun/RecursiveBinarySearch.java" />
-        <option value="$PROJECT_DIR$/src/test/com.codekata.fun/binarysearch/TestRecursiveBinarySearch.java" />
-        <option value="$PROJECT_DIR$/src/java/com/codekata/fun/binarysearch/IBinarySearch.java" />
-        <option value="$PROJECT_DIR$/src/java/com/codekata/fun/binarysearch/IterativeBinarySearch.java" />
-        <option value="$PROJECT_DIR$/src/java/com/codekata/fun/binarysearch/RecursiveBinarySearch.java" />
-        <option value="$PROJECT_DIR$/src/test/com.codekata.fun/support/BinarySearchTestSupport.java" />
-        <option value="$PROJECT_DIR$/src/test/com.codekata.fun/binarysearch/TestIterativeBinarySearch.java" />
-        <option value="$PROJECT_DIR$/src/java/com/codekata/fun/binarysearch/IBinarySearchProvider.java" />
+        <option value="$PROJECT_DIR$/src/test/com.codekata.fun/listsearch/TestIterativeBinarySearch.java" />
+        <option value="$PROJECT_DIR$/src/java/com/codekata/fun/tasks/SearchCallable.java" />
+        <option value="$PROJECT_DIR$/src/java/com/codekata/fun/tasks/ArraySliceSearchTask.java" />
+        <option value="$PROJECT_DIR$/src/java/com/codekata/fun/listsearch/ParallelSortedListSearch.java" />
+        <option value="$PROJECT_DIR$/src/java/com/codekata/fun/util/ArrayUtils.java" />
+        <option value="$PROJECT_DIR$/src/test/com.codekata.fun/common/SortedListSearchTestSupport.java" />
+        <option value="$PROJECT_DIR$/src/test/com.codekata.fun/listsearch/TestBinarySearchProvider.java" />
+        <option value="$PROJECT_DIR$/src/java/com/codekata/fun/listsearch/RecursiveSortedListSearchProvider.java" />
+        <option value="$PROJECT_DIR$/src/java/com/codekata/fun/listsearch/IterativeSortedListSearchProvider.java" />
+        <option value="$PROJECT_DIR$/src/java/com/codekata/fun/listsearch/ParallelSortedListSearchProvider.java" />
+        <option value="$PROJECT_DIR$/src/java/com/codekata/fun/listsearch/BinarySearchProvider.java" />
+        <option value="$PROJECT_DIR$/src/java/com/codekata/fun/listsearch/ISortedListSearchProvider.java" />
+        <option value="$PROJECT_DIR$/src/java/com/codekata/fun/listsearch/IArraySearchProvider.java" />
+        <option value="$PROJECT_DIR$/src/java/com/codekata/fun/listsearch/IterativeArraySliceSearchProvider.java" />
+        <option value="$PROJECT_DIR$/src/test/com.codekata.fun/listsearch/IterativeArraySliceSearchProviderTest.java" />
+        <option value="$PROJECT_DIR$/src/test/com.codekata.fun/listsearch/TestIterativeArraySliceSearchProvider.java" />
       </list>
     </option>
   </component>
@@ -187,6 +271,12 @@
           </State>
           <State>
             <id>TestNG</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+          <State>
+            <id>XSLT</id>
           </State>
         </expanded-state>
         <selected-state>
@@ -225,6 +315,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -269,7 +360,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="binarysearch" />
+              <option name="myItemId" value="listsearch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kata_two" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kata_two" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.codekata.fun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -303,32 +420,102 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="binarysearch" />
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kata_two" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kata_two" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codekata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kata_two" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kata_two" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codekata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="listsearch" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/com.codekata.fun" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/com.codekata.fun/listsearch" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="OverrideImplement.combined" value="false" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="coverage" />
+    <property name="options.lastSelected" value="preferences.sourceCode.Java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
@@ -337,34 +524,91 @@
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.codekata.fun.listsearch" />
+      <recent name="com.codekata.fun" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
-    </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.codekata.fun" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.codekata.fun.binarysearch" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestIterativeBinarySearch.testBinarySearch">
-    <configuration default="false" name="TestIterativeBinarySearch" type="JUnit" factoryName="JUnit" temporary="true">
+  <component name="RunManager" selected="JUnit.TestBinarySearchProvider">
+    <configuration default="false" name="TestRecursiveBinarySearch" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.codekata.fun.*" />
+          <option name="PATTERN" value="com.codekata.fun.listsearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="kata_two" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.codekata.fun.binarysearch" />
-      <option name="MAIN_CLASS_NAME" value="com.codekata.fun.binarysearch.TestIterativeBinarySearch" />
+      <option name="PACKAGE_NAME" value="com.codekata.fun.listsearch" />
+      <option name="MAIN_CLASS_NAME" value="com.codekata.fun.listsearch.TestRecursiveBinarySearch" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="com.codekata.fun.listsearch in kata_two" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.codekata.fun.listsearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="kata_two" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.codekata.fun.listsearch" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestParallelArraySearch" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.codekata.fun.listsearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="kata_two" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="com.codekata.fun.listsearch" />
+      <option name="MAIN_CLASS_NAME" value="com.codekata.fun.listsearch.TestParallelArraySearch" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -Xms1500m -Xmx3500m" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -382,20 +626,48 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="TestIterativeBinarySearch.testBinarySearch" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="TestIterativeBinarySearch" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.codekata.fun.*" />
+          <option name="PATTERN" value="com.codekata.fun.listsearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="kata_two" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="com.codekata.fun.listsearch" />
+      <option name="MAIN_CLASS_NAME" value="com.codekata.fun.listsearch.TestIterativeBinarySearch" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -Xmx3500m" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestBinarySearchProvider" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.codekata.fun.listsearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="kata_two" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.codekata.fun.binarysearch" />
-      <option name="MAIN_CLASS_NAME" value="com.codekata.fun.binarysearch.TestIterativeBinarySearch" />
-      <option name="METHOD_NAME" value="testBinarySearch" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.codekata.fun.listsearch" />
+      <option name="MAIN_CLASS_NAME" value="com.codekata.fun.listsearch.TestBinarySearchProvider" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -406,15 +678,7 @@
       </option>
       <envs />
       <patterns />
-      <RunnerSettings RunnerId="Cover" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Cover" />
-      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -509,14 +773,20 @@
       <patterns />
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TestIterativeBinarySearch" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TestIterativeBinarySearch.testBinarySearch" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TestRecursiveBinarySearch" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.com.codekata.fun.listsearch in kata_two" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestParallelArraySearch" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestIterativeBinarySearch" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestBinarySearchProvider" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestIterativeBinarySearch.testBinarySearch" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestIterativeBinarySearch" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestBinarySearchProvider" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestParallelArraySearch" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestIterativeBinarySearch" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestRecursiveBinarySearch" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.com.codekata.fun.listsearch in kata_two" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -551,35 +821,56 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="774" extended-state="0" />
+    <frame x="0" y="22" width="1280" height="774" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39908257" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21865444" sideWeight="0.99513775" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39908257" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.6712538" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24554294" sideWeight="0.6712538" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32874617" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24554294" sideWeight="0.64831805" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35168195" sideWeight="0.98055106" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.6712538" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -608,7 +899,7 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
     <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
     <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
@@ -618,6 +909,10 @@
     <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="LIMIT_HISTORY" value="true" />
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
     <option name="LAST_COMMIT_MESSAGE" />
@@ -631,6 +926,7 @@
     <option name="ACTIVE_VCS_NAME" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
@@ -642,39 +938,116 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/com.codekata.fun/binarysearch/TestRecursiveBinarySearch.java">
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/util/concurrent/FutureTask.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="38" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0">
+        <state line="19" column="13" selection-start="654" selection-end="654" vertical-scroll-proportion="0.3100304" />
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/util/concurrent/locks/AbstractQueuedSynchronizer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="22" selection-start="3877" selection-end="3877" vertical-scroll-proportion="0.3100304" />
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/util/concurrent/ExecutorService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="12" selection-start="1577" selection-end="1577" vertical-scroll-proportion="0.9166667">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com.codekata.fun/binarysearch/TestIterativeBinarySearch.java">
+    <entry file="file://$PROJECT_DIR$/src/java/com/codekata/fun/tasks/ArraySliceSearchTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="1333" selection-end="1333" vertical-scroll-proportion="0.0">
+        <state line="32" column="31" selection-start="1205" selection-end="1205" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/codekata/fun/util/ArrayUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com.codekata.fun/listsearch/TestBinarySearchProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="52" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/com/codekata/fun/binarysearch/IBinarySearchProvider.java">
+    <entry file="file://$PROJECT_DIR$/src/java/com/codekata/fun/listsearch/IterativeArraySearchProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
+        <state line="10" column="26" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/com/codekata/fun/binarysearch/IterativeBinarySearchProvider.java">
+    <entry file="file://$PROJECT_DIR$/src/java/com/codekata/fun/listsearch/ParallelArraySearchProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="23" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0">
+        <state line="17" column="0" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1476#1493#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com.codekata.fun/common/ArraySearchTestSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/com/codekata/fun/binarysearch/RecursiveBinarySearchProvider.java">
+    <entry file="file://$PROJECT_DIR$/src/java/com/codekata/fun/listsearch/RecursiveArraySearchProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="34" selection-start="273" selection-end="296" vertical-scroll-proportion="0.42525774">
+        <state line="8" column="53" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/codekata/fun/listsearch/IArraySearchProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="23" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com.codekata.fun/listsearch/TestIterativeBinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="227" selection-end="249" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/codekata/fun/listsearch/BinarySearchProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="82" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/codekata/fun/listsearch/IterativeArraySliceSearchProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="23" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com.codekata.fun/listsearch/TestIterativeArraySliceSearchProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="36" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com.codekata.fun/listsearch/TestParallelArraySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="56" selection-start="306" selection-end="306" vertical-scroll-proportion="0.3857143">
           <folding />
         </state>
       </provider>

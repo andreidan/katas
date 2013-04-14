@@ -6,7 +6,7 @@ import com.codekata.fun.util.ArrayUtils;
  * Author: andrei
  * Date: 4/7/13
  */
-public class IterativeSortedListSearchProvider implements ISortedListSearchProvider {
+public class IterativeArraySearchProvider implements IArraySearchProvider {
 
     public int chop(int value, int[] sortedArray) {
         if (sortedArray == null || sortedArray.length == 0) {

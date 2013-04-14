@@ -1,8 +1,6 @@
 package com.codekata.fun.common;
 
-import com.codekata.fun.listsearch.ISortedListSearchProvider;
-import com.sun.org.apache.bcel.internal.classfile.Utility;
-import junit.extensions.RepeatedTest;
+import com.codekata.fun.listsearch.IArraySearchProvider;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
@@ -14,9 +12,9 @@ import static org.junit.Assert.assertEquals;
  * Date: 4/7/13
  */
 @RunWith(JUnit4.class)
-public class SortedListSearchTestSupport {
+public class ArraySearchTestSupport {
 
-    protected ISortedListSearchProvider searchProvider;
+    protected IArraySearchProvider searchProvider;
 
     @Test
     public void testBinarySearch() {

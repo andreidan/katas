@@ -10,13 +10,13 @@ import java.util.concurrent.*;
  * Author: andrei
  * Date: 4/7/13
  */
-public class ParallelSortedListSearchProvider implements ISortedListSearchProvider {
+public class ParallelArraySearchProvider implements IArraySearchProvider {
 
     private final ExecutorService executorService;
     private CompletionService<Integer> completionService;
     private final int cpuCores;
 
-    public ParallelSortedListSearchProvider() {
+    public ParallelArraySearchProvider() {
         cpuCores = Runtime.getRuntime().availableProcessors();
         executorService = Executors.newFixedThreadPool(cpuCores);
     }

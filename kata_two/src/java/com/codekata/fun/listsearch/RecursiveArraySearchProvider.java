@@ -6,7 +6,7 @@ import com.codekata.fun.util.ArrayUtils;
  * Author: andrei
  * Date: 4/7/13
  */
-public class RecursiveSortedListSearchProvider implements ISortedListSearchProvider {
+public class RecursiveArraySearchProvider implements IArraySearchProvider {
 
     public int chop(int value, int[] sortedArray) {
 

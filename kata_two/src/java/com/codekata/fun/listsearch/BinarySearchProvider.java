@@ -6,7 +6,7 @@ import java.util.Arrays;
  * Author: andrei
  * Date: 4/14/13
  */
-public class BinarySearchProvider implements ISortedListSearchProvider {
+public class BinarySearchProvider implements IArraySearchProvider {
 
     @Override
     public int chop(int value, int[] sortedArray) {

@@ -7,13 +7,13 @@ import org.junit.runners.JUnit4;
 
 /**
  * Author: andrei
- * Date: 4/14/13
+ * Date: 4/7/13
  */
 @RunWith(JUnit4.class)
-public class TestIterativeArraySliceSearchProvider extends ArraySearchTestSupport {
+public class TestParallelArraySliceSearch extends ArraySearchTestSupport {
 
     @Before
-    public void setUp() throws Exception {
-        searchProvider = new IterativeArraySliceSearchProvider();
+    public void setUp() {
+        searchProvider = new ParallelArraySliceSearchProvider();
     }
 }

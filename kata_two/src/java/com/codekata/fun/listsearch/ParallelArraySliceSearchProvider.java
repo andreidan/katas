@@ -1,6 +1,5 @@
 package com.codekata.fun.listsearch;
 
-import com.codekata.fun.tasks.ArraySearchTask;
 import com.codekata.fun.tasks.ArraySliceSearchTask;
 
 import java.util.ArrayList;
@@ -8,21 +7,15 @@ import java.util.Collection;
 import java.util.concurrent.*;
 
 /**
- * Provides a mean to search perform a parallel search over a sorted array.
- *
- * The difference between this implementation and ParallelArraySLICESearchProvider is that the array is NOT
- * sliced, but passed to every line of execution ( basically every thread shares the array but performs the search
- * on different sub-parts )
- *
  * Author: andrei
- * Date: 4/14/13
+ * Date: 4/7/13
  */
-public class ParallelArraySearchProvider implements IArraySearchProvider {
+public class ParallelArraySliceSearchProvider implements IArraySearchProvider {
 
     private final ExecutorService executorService;
     private final int cpuCores;
 
-    public ParallelArraySearchProvider() {
+    public ParallelArraySliceSearchProvider() {
         cpuCores = Runtime.getRuntime().availableProcessors();
         executorService = Executors.newFixedThreadPool(cpuCores);
     }
@@ -30,7 +23,6 @@ public class ParallelArraySearchProvider implements IArraySearchProvider {
     @Override
     public int chop(int value, int[] sortedArray) {
         int foundIndex = NOT_FOUND_INDEX;
-
         if (sortedArray == null || sortedArray.length == 0) {
             return foundIndex;
         } else {
@@ -54,14 +46,15 @@ public class ParallelArraySearchProvider implements IArraySearchProvider {
 
             for (int i = 0; i < slices; i++) {
 
-                int start = i*sliceLength;
-                int end = i*sliceLength + sliceLength;
-
-                if (i == (slices - 1)) {
-                    end = i*sliceLength + lastSliceLength;
+                int[] arraySlice = null;
+                if (i < slices - 1) {
+                    arraySlice = new int[sliceLength];
+                    System.arraycopy(sortedArray, i * sliceLength, arraySlice, 0, sliceLength);
+                } else {
+                    arraySlice = new int[lastSliceLength];
+                    System.arraycopy(sortedArray, i * sliceLength, arraySlice, 0, lastSliceLength);
                 }
-
-                tasks.add(completionService.submit(new ArraySearchTask(sortedArray, start, end, value)));
+                tasks.add(completionService.submit(new ArraySliceSearchTask(value, arraySlice, i * sliceLength)));
             }
 
             for (int i = 0; i < slices; i++) {

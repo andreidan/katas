@@ -8,7 +8,7 @@ import java.util.concurrent.*;
 
 /**
  * Author: andrei
- * Date: 4/7/13
+ * Date: 31/10/13
  */
 public class ParallelArraySliceSearchProvider implements IArraySearchProvider {
 
